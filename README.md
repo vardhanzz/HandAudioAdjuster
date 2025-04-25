@@ -1,4 +1,4 @@
-<h1><b>Hand-Audio Adjuster</b></h1>
+<h1><b>Hand-Audio Adjuster (macos) </b></h1>
 
 <h2><b>Overview</b></h2>
 <p>The <b>Hand-Audio Adjuster</b> is a project that allows you to control the audio volume of your computer through the movements of your index finger and thumb. By measuring the distance between the thumb and index finger tips, the system adjusts the system's volume in real-time.</p>
