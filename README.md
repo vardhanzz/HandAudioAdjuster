@@ -1,4 +1,4 @@
-<h1><b>Hand-Audio Adjuster (macos) </b></h1>
+<h1><b>Hand-Audio Adjuster (macOS) </b></h1>
 
 <h2><b>Overview</b></h2>
 <p>The <b>Hand-Audio Adjuster</b> is a project that allows you to control the audio volume of your computer through the movements of your index finger and thumb. By measuring the distance between the thumb and index finger tips, the system adjusts the system's volume in real-time.</p>
@@ -27,6 +27,7 @@
 
 <h2><b>Setup & Installation</b></h2>
 <pre><code>
+
 $ git clone https://github.com/vardhanzz/HandAudioAdjuster.git
 </code></pre>
 
@@ -35,11 +36,18 @@ $ git clone https://github.com/vardhanzz/HandAudioAdjuster.git
 $ pip install opencv-python numpy
 </code></pre>
 
-<p><b>Note for macOS Users</b>: This project does not use PyCaw for controlling system volume. Instead, it uses <b>AppleScript</b> through the <b>subprocess</b> module to adjust the system volume. Make sure you have <b>osascript</b> available on your macOS device to control the volume using system-level commands.</p>
+<p><b>Note for macOS Users</b>: This project does not use PyCaw for controlling system volume. Instead, it uses <b>AppleScript</b> through the <b>subprocess</b> module to adjust the system volume. Ensure you have <b>osascript</b> available on your macOS device to control the volume using system-level commands.</p>
 
 <h2><b>Usage</b></h2>
 <pre><code>
 $ python main.py
 </code></pre>
 
-<p>Once the webcam starts, position your hand in front of the camera with your thumb and index finger extended. Move your thumb and index finger closer or farther apart to adjust the volume of your system. The current volume will be displayed on the screen in a visual bar.</p>
+<p>Once the webcam starts, position your hand before the camera with your thumb and index finger extended. Move your thumb and index finger closer or farther apart to adjust the volume of your system. The current volume will be displayed on the screen in a visual bar.</p>
+
+<img width="1122" alt="Screenshot 2025-04-25 at 6 38 37 PM" src="https://github.com/user-attachments/assets/eec9174a-9f83-4eec-b505-9815b115472d" /><br>
+
+<img width="1022" alt="Screenshot 2025-04-25 at 6 39 20 PM" src="https://github.com/user-attachments/assets/1cb6ce50-66dd-42df-9c5d-c51ad141fae8" />
+
+
+
